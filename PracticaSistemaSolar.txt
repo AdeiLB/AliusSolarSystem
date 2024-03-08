@@ -1,0 +1,11 @@
+nuestro sistema solar está compuesto por un señor en el centro representando el sol, del cual orbitan botellas, la única diferencia es que la tierra será un vaso de agua  
+
+La órbita de cada objeto será una elipse, el cual tendrá el origen de coordenadas en el “sol”, mediante un script  recogeremos esas coordenadas en el start, 
+y haremos un método para hacer la rotación en forma de elipse, en cada uno de los “planetas” que apliquemos este script pondremos un atributo público de 
+velocidad para modificar la velocidad a la que rota alrededor del “sol”.
+Para lograr hacer la elipse vamos a usar como referencia/tutorial el video de youtube 
+(Video para calcular y dibujar una elipse;)
+https://www.youtube.com/watch?v=mQKGRoV_jBc.
+
+La jerarquía de nuestro escenario será una en la cual habrá objetos vacíos con los "planetas" siendo sus hijos, (esto es para tener las coordenadas de origen 
+guardadas en un punto y en caso de que queramos agitar o hacer algo al "sol" no afecte a los demas "planetas") 
